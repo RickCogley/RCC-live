@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<main class="mw7 center">
+  <div>
+   <h1 class="ttu fw4 f2 near-white">{{ .Title }} Archive</h1>
+            {{ range .Data.Pages.GroupByDate "2006" }}
+            <h2 class="ttu f3 blue">{{ .Key }}</h2>
+                <ul class="list pnl">
+                    {{ range .Pages }}
+                        {{ .Render "li"}}
+                    {{ end }}
+                </ul>
+            {{ end }}
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
