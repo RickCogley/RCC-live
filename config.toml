@@ -1,0 +1,5 @@
+baseURL = "http://live.cogley.info"
+languageCode = "en-us"
+title = "RCC Live"
+[permalinks]
+  post = "/:year/:month/:day/:title/"
