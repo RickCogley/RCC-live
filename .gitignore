@@ -1,0 +1,13 @@
+public/
+*.log
+*.sh
+*.markdown~
+*.md~
+.DS_Store
+src/scss/.sass-cache/
+
+fonts/
+
+node_modules/
+npm-debug.log
+bundle/
