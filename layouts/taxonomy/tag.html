@@ -1,0 +1,18 @@
+{{ "<!-- ENTERING layouts/taxonomy/tag.html -->" | safeHTML }}
+{{ partial "header.html" . }}
+<main class="mw7 center">
+  <h1>Content with tag: &laquo;{{ .Title }}&raquo;</h1>
+  {{ range .Data.Pages.GroupByDate "2006" }}
+  <h2 class="dark-blue">{{ .Key }}</h2>
+  <ul class="mb3">
+    {{ range .Pages }}
+      {{ .Render "li" }}
+    {{ end }}
+  </ul>
+  {{ end }}
+  <p class="m3">
+    {{ partial "list_tags.html" . }}
+  </p>
+</main>
+{{ partial "footer.html" . }}
+{{ "<!-- LEAVING layouts/taxonomy/tag.html -->" | safeHTML }}

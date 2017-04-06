@@ -1,0 +1,19 @@
+{{ "<!-- ENTERING layouts/_default/terms.html -->" | safeHTML }}
+{{ partial "header.html" . }}
+
+<main class="mw7 center">
+  <div class="pb2">
+    <h1 class="ttu fw4 f2 near-white">Taxonomy</h1>
+    <h2 class="ttu f3 dark-green">Site {{ .Title }}</h2>
+    <p>
+    {{ $data := .Data }}
+    {{ range $key,$value := .Data.Terms.ByCount }}
+    <ul class="pnl">
+      <li><a class="link dim dark-red" href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> &nbsp; {{ $value.Count }} </li>
+    </ul>
+    {{ end }}
+    </p>
+  </div>
+</main>
+{{ partial "footer.html" . }}
+{{ "<!-- LEAVING layouts/_default/terms.html -->" | safeHTML }}
