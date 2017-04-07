@@ -14,7 +14,7 @@ I saw this article [Surgeons to prepare for attacks during Tokyo Games](http://t
 
 I was glad to see that some preparation is being done. Japan is a country with almost no guns in circulation, except for police, and a stabbing will make national news. We are simply not prepared for it, and we also know that Japan gov't won't ask, say, the US Military for assistance (remember the Fukushima situation?)
 
-But, I feel there's a balance, regarding counterterrorism. I really feel against the idea of "extreme vetting" like [this article](https://www.theguardian.com/us-news/2017/apr/04/trump-extreme-vetting-visitors-to-us-share-contacts-passwords) describes goes too far. The result may be that people simply refuse to visit the US, or simply drop Facebook and Twitter altogether. 
+But, I feel there's a balance, regarding counterterrorism. I am against even the idea of "extreme vetting" like [this article](https://www.theguardian.com/us-news/2017/apr/04/trump-extreme-vetting-visitors-to-us-share-contacts-passwords) describes; it goes too far. The result may be that people simply refuse to visit the US, or simply drop Facebook and Twitter altogether. 
 
 So if there is an incident at Tokyo 2020, will it be "keystone cops" as usual, or will Japan actually get its act together in time. 
 
