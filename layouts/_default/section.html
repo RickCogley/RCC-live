@@ -1,6 +1,7 @@
-{{ "<!-- ENTERING layouts/_default/section.html -->" | safeHTML }}
-{{ partial "header.html" . }}
-
+{{ define "header" }}
+  {{- partial "header.html" . -}}
+{{ end }}
+{{ define "main" }}
 <main class="mw7 center">
   <div>
    <h1 class="ttu fw4 f2 near-white">{{ .Title }} Archive</h1>
@@ -14,7 +15,8 @@
             {{ end }}
   </div>
 </main>
-
-{{ partial "footer.html" . }}
-{{ "<!-- LEAVING layouts/_default/section.html -->" | safeHTML }}
+{{ end }}
+{{ define "footer" }}
+  {{- partial "footer.html" . -}}
+{{ end }}
 
