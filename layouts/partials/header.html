@@ -1,11 +1,28 @@
+{{ "<!-- ENTERING partial header.html -->" | safeHTML }}
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile# website: http://ogp.me/ns/website#">
   <head>
     <meta charset="utf-8">
+    <!-- can go in .HTACCESS!!  -->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}</title>
     <meta name="author" content="Rick Cogley">
-    <meta name="description" content="Quick blog links from Rick Cogley">
+    <meta name="description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}Content under '{{ .Title }}' at RC Live, short blog posts from Rick Cogley.{{ end }}{{ end }}">
+
+    <meta name="keywords" content="{{if .IsPage}}{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}{{else}}{{.Site.Params.keywords}}{{end}}">
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    {{ .Hugo.Generator }}
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+
+<!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
 
     <link rel="stylesheet" href="{{ "fonts/PragmataPro0.824W/PragmataPro-Regular0.824W/stylesheet.css" | relURL }}">
     <link rel="stylesheet" href="{{ "fonts/PragmataPro0.824W/PragmataPro-Italic0.824W/stylesheet.css" | relURL }}">
@@ -22,9 +39,9 @@
       <header class="tc pa1 bb bg-washed-blue b--light-gray">
          <nav class="db dt-l w-100 border-box pa3 ph5-l">
            <a class="db dtc-l v-mid gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="{{ "/" | relURL }}" title="Home">
-             <img src="{{ "img/Rick_Run_201409 120x120.JPG" | relURL }}" class="dib w2 h2 br-100" alt="Rick Cogley Photo">
+             <img src="{{ "img/Rick_Run_201409 120x120.JPG" | relURL }}" class="dib w3 h3 br-100" alt="Rick Cogley Photo">
             </a>
-            <h1 class="lightest-blue">♠RClive♡</h1>
+            <h1 class="dark-pink">RC&nbsp;Live</h1>
             <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
               <a class="link dim dark-green f6 f5-l dib mr3 mr4-l" href="{{ "/" | relURL }}" title="Home">Home</a>
               <a class="link dim dark-green f6 f5-l dib mr3 mr4-l" href="{{ "post"| relURL }}" title="Archive">Archive</a>
@@ -52,3 +69,4 @@
           </svg>
         </defs>
       </svg>
+{{ "<!-- LEAVING partial header.html -->" | safeHTML }}
