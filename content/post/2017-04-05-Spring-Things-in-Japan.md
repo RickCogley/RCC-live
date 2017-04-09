@@ -4,6 +4,7 @@ draft = "false"
 slug = "spring-things-in-japan-do-you-kigo"
 tags = ["kigo","japan","seasons"]
 title = "Spring Things in Japan - Do You Kigo?"
+aliases = ["/2017/04/05/spring-things-in-japan---do-you-kigo/"]
 +++
 
 Japan takes its seasons seriously, and marks them with "kigo" 季語. 

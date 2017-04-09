@@ -5,7 +5,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 enableGitInfo = "true"
 
 [permalinks]
-  post = "/:year/:month/:day/:title/"
+  post = "/:year/:month/:day/:slug/"
 [taxonomies]
   tag = "tags"
 

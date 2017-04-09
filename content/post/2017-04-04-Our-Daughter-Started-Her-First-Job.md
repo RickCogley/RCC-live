@@ -1,7 +1,7 @@
 +++
 date = "2017-04-05T06:50:13+09:00"
 draft = "false"
-slug = "our-daughter-started-her-first-job"
+slug = "our-daughter-started-her-first-job-sob"
 tags = ["freshman","job"]
 title = "Our Daughter Started Her First Job (Sob)"
 +++
