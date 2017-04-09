@@ -6,7 +6,7 @@ tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir"]
 title = "My Favorite Podcasts #TryPod"
 +++
 
-I'm late, to the party, but the Podcasts I listen to have been asking listeners to share their favorites on Social Media, so here goes.  
+I'm late to the party, but the Podcasts I listen to have been asking listeners to share their favorites on Social Media, so here goes.  
 
 <!--more-->
 
