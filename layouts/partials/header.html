@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}</title>
     <meta name="author" content="Rick Cogley">
-    <meta name="description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}Content under '{{ .Title }}' at RC Live, short blog posts from Rick Cogley.{{ end }}{{ end }}">
-
-    <meta name="keywords" content="{{if .IsPage}}{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}{{else}}{{.Site.Params.keywords}}{{end}}">
+    <meta name="description" content="{{ if and (eq .Kind "taxonomy") (eq .Kind "taxonomyTerm") }}Content under '{{ .Title }}' at RC Live, short blog posts from Rick Cogley.{{ else }}{{ .Summary }}{{ end }}">
+    <meta name="keywords" content="{{ if isset .Params "tags" }}{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}{{ else }}{{.Site.Params.keywords}}{{ end }}">
     <link href="http://gmpg.org/xfn/11" rel="profile">
     {{ .Hugo.Generator }}
-
     <link rel="canonical" href="{{ .Permalink }}">
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
