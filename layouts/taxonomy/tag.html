@@ -1,5 +1,7 @@
-{{ "<!-- ENTERING layouts/taxonomy/tag.html -->" | safeHTML }}
-{{ partial "header.html" . }}
+{{ define "header" }}
+  {{- partial "header.html" . -}}
+{{ end }}
+{{ define "main" }}
 <main class="mw7 center">
   <h1>Content with tag: &laquo;{{ .Title }}&raquo;</h1>
   {{ range .Data.Pages.GroupByDate "2006" }}
@@ -14,5 +16,7 @@
     {{ partial "list_tags.html" . }}
   </p>
 </main>
-{{ partial "footer.html" . }}
-{{ "<!-- LEAVING layouts/taxonomy/tag.html -->" | safeHTML }}
+{{ end }}
+{{ define "footer" }}
+  {{- partial "footer.html" . -}}
+{{ end }}
