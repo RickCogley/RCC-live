@@ -3,7 +3,7 @@
 {{ end }}
 {{ define "main" }}
   <main class="mw7 center">
-    <h1 class="ttu fw4 f2 near-white">Posts</h1>
+    <h1 class="ttu fw4 f2 near-white">{{ .Title }}</h1>
       {{ .Content }}
       {{ range first 20 .Data.Pages }}
           {{ if eq .Type "post"}}
