@@ -10,7 +10,7 @@
     {{ $data := .Data }}
     {{ range $key,$value := .Data.Terms.ByCount }}
     <ul class="pnl">
-      <li><a class="link dim dark-red" href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> &nbsp; {{ $value.Count }} </li>
+      <li><a class="link dim dark-pink" href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> &nbsp; {{ $value.Count }} </li>
     </ul>
     {{ end }}
     </p>

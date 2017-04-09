@@ -6,7 +6,7 @@
                 <li class="dib prm"><a href="https://www.twitter.com/RickCogley"><svg xmlns="http://www.w3.org/2000/svg" class="geomicon blue" viewBox="0 0 32 32" width="32" height="32"><use xlink:href="#twitter"></use></svg></a></li>
               </ul>
               </nav>
-              <small>Made with <svg xmlns="http://www.w3.org/2000/svg" class="red" viewBox="0 0 32 32" width="10" height="10"><use xlink:href="#heart"></use></svg> and <a class="link dim blue" href="https://gohugo.io/" target="_blank"><b>Hugo</b></a> by Rick Cogley &copy; {{ now.Format "2006"}}</small>
+              <small>Made with <svg xmlns="http://www.w3.org/2000/svg" class="dark-pink" viewBox="0 0 32 32" width="10" height="10"><use xlink:href="#heart"></use></svg> and <a class="link dim blue" href="https://gohugo.io/" target="_blank"><b>Hugo</b></a> by Rick Cogley &copy; {{ now.Format "2006"}}</small>
         </small>
         <!-- {{ if .IsPage }}<small class="gray"><em>Updated: {{ .Page.Lastmod }}, Version: {{ .GitInfo.AbbreviatedHash }}</em></small>{{ end }} -->
         {{ if and (ne .Kind "taxonomy") (ne .Kind "taxonomyTerm") }}<small class="gray"><em>Updated: {{ .Lastmod }} {{ .GitInfo.AbbreviatedHash }}</em></small>{{ end }}
