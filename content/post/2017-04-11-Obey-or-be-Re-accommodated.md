@@ -1,8 +1,8 @@
 +++
-date = "2017-04-11T07:52:43+09:00"
+date = "2017-04-11T08:25:43+09:00"
 draft = "false"
 slug = "obey-or-be-reaccommodated"
-tags = ["united","reaccommodated","assault","behavior"]
+tags = ["united","reaccommodated","lawsuit","criminal","assault","behavior"]
 title = "United: Obey or be Reaccommodated"
 +++
 
@@ -12,7 +12,7 @@ By now you've probably heard about the awful treatment by United Airlines of a m
 
 The situation was a result of United's cock-up. Apparently, they overbooked the flight, and needed space for transiting crew. After asking and trying to provide vouchers, there were no takers. So they announced that a computer would select, then they had hired goons forcibly remove the selectees. The video that went viral shows the passenger getting yanked off the plan, dragged down the aisle. It's unbelievable, like something out of a movie.  
 
-So, instead of doing the logical thing and paying for some other transportation for the transiting crew, United took a giant dump on their customers generally, and treated a man who refused to accommodate their screw-up like he committed some heinous crime. Then their CEO came out with this tone-deaf statement: 
+So, instead of doing the logical thing and paying for some other transportation for the transiting crew, United took a giant dump on their customers generally, and assaulted a man who refused to accommodate their screw-up like he committed some heinous crime. Then their CEO came out with this tone-deaf statement: 
 
 > _"I apologize for having to re-accommodate these customers. Our team is moving with a sense of urgency to work with the authorities and conduct our own detailed review of what happened."_
 
