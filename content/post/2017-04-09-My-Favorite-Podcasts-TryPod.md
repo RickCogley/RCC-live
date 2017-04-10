@@ -2,7 +2,7 @@
 date = "2017-04-09T13:33:19+09:00"
 draft = "false"
 slug = "my-favorite-podcasts-trypod"
-tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir"]
+tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir","wbez","stitcher","panoply","defactosound"]
 title = "My Favorite Podcasts #TryPod"
 +++
 
@@ -54,6 +54,24 @@ WNYC produces many beloved podcasts. Read more at their [site](http://wnycstudio
 * Freakonomics Radio
 * More Perfect
 * Here's the Thing
+
+### From WBEZ Chicago
+
+How could I forget Ira Glass team's stories "in three acts". I love these Podcasts from WBEZ: 
+
+* This American Life
+* Serial
+* S Town
+
+... and you can learn more at the [WBEZ website](http://interactive.wbez.org/podcasts/).
+
+### Others
+
+No less important, but here are a handful of other great ones: 
+
+* From Stitcher: Stephen Dubner's [Tell Me Something I Don't Know](http://tmsidk.com/about/))
+* From Defacto Sound: [20000 Hertz](https://www.20k.org/)
+* From Panoply: Malcolm Gladwell's [Revisionist History](http://revisionisthistory.com/about)
 
 And that's a wrap. If you've not got into podcasts, check out the ones above. You're sure to branch out and find other ones you love, among the great content that's being produced these days. Enjoy! 
 
