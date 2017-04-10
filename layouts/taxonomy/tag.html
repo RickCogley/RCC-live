@@ -3,7 +3,7 @@
 {{ end }}
 {{ define "main" }}
 <main class="mw7 center">
-  <h1>Content with tag: &laquo;{{ .Title }}&raquo;</h1>
+  <h1 class="moon-gray">Content with tag: &laquo;{{ .Title }}&raquo;</h1>
   {{ range .Data.Pages.GroupByDate "2006" }}
   <h2 class="dark-blue">{{ .Key }}</h2>
   <ul class="mb3">
