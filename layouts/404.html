@@ -1,10 +1,11 @@
 {{ define "header" }}
-  {{ partial "header.html" . }}
+  {{- partial "header.html" . -}}
 {{ end }}
 {{ define "main" }}
   <main class="mw7 center">
     <h1 class="ttu fw4 dark-pink">&#xE380; The dreaded &laquo;{{ .Title }}&raquo;&nbsp;&#x2620;</h1>
     Thanks for visiting. You've reached my 404 page, meaning the content you tried to access cannot be found. Scan the below list of site taxonomies and click through to something of interest.
+    {{ .Content }}
     <ul>
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
       <li><a class="link dim" href="/{{ $taxonomyname | urlize }}"><h2 class="dark-green">{{ $taxonomyname }}</h2></a>
@@ -24,5 +25,5 @@
   </main>
 {{ end }}
 {{ define "footer" }}
-  {{ partial "footer.html" . }}
+  {{- partial "footer.html" . -}}
 {{ end }}
