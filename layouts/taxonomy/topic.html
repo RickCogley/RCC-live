@@ -1,9 +1,11 @@
-{{ "<!-- ENTERING layouts/taxonomy/topic.html -->" | safeHTML }}
-{{ partial "header.html" . }}
-<body class="charcoal bg-teal">
-<main class="m0 p4 bg-lightpaperfibers">
+{{ define "header" }}
+  {{- partial "header.html" . -}}
+{{ end }}
+{{ define "main" }}
+<main class="w-70 center">
+  <h1 class="moon-gray">Content with tag: &laquo;{{ .Title }}&raquo;</h1>
   {{ range .Data.Pages.GroupByDate "2006" }}
-  <h4>{{ .Key }}</h4>
+  <h2 class="dark-blue">{{ .Key }}</h2>
   <ul class="mb3">
     {{ range .Pages }}
       {{ .Render "li" }}
@@ -12,10 +14,9 @@
   {{ end }}
   <p>
     {{ partial "list_topics.html" . }}
-    {{ partial "list_tags.html" . }}
   </p>
 </main>
-{{ partial "footer.html" . }}
-</body>
-</html>
-{{ "<!-- LEAVING layouts/taxonomy/topic.html -->" | safeHTML }}
+{{ end }}
+{{ define "footer" }}
+  {{- partial "footer.html" . -}}
+{{ end }}
