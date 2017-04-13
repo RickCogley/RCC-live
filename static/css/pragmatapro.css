@@ -4,13 +4,13 @@ body {
 	-ms-hyphens: auto;
 	hyphens: auto;
 	word-wrap: break-word;
-        
+
   -webkit-animation-duration: 0.1s;
   -webkit-animation-name: fontfix;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -webkit-animation-delay: 0.1s;
-        
+
     }
 @-webkit-keyframes fontfix {
   from { opacity: 1; }
@@ -23,10 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   /** text-rendering: optimizeLegibility; */
 	/** font-kerning: normal; */
 	font-variant-ligatures: contextual, discretionary-ligatures;
-	-moz-font-feature-settings: "calt", "dlig","ss08";
-	-ms-font-feature-settings: "calt", "dlig","ss08";
-	-webkit-font-feature-settings: "calt", "dlig","ss08";
-	font-feature-settings: "calt", "dlig","ss08";
+	-moz-font-feature-settings: "calt", "dlig","ss09";
+	-ms-font-feature-settings: "calt", "dlig","ss09";
+	-webkit-font-feature-settings: "calt", "dlig","ss09";
+	font-feature-settings: "calt", "dlig","ss09";
 }
 
 ::selection {
