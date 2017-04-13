@@ -1,4 +1,4 @@
-body {
+body, body p {
   -webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
@@ -23,10 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   /** text-rendering: optimizeLegibility; */
 	/** font-kerning: normal; */
 	font-variant-ligatures: contextual, discretionary-ligatures;
-	-moz-font-feature-settings: "calt", "dlig","ss09";
-	-ms-font-feature-settings: "calt", "dlig","ss09";
-	-webkit-font-feature-settings: "calt", "dlig","ss09";
-	font-feature-settings: "calt", "dlig","ss09";
+	-moz-font-feature-settings: "calt", "dlig";
+	-ms-font-feature-settings: "calt", "dlig";
+	-webkit-font-feature-settings: "calt", "dlig";
+	font-feature-settings: "calt", "dlig";
 }
 
 ::selection {
