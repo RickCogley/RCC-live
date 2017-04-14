@@ -1,7 +1,7 @@
 +++
 date = "2017-04-14T10:14:54+09:00"
-draft = "true"
-slug = "won't-happen-in-japan"
+draft = "false"
+slug = "wont-happen-in-japan"
 tags = ["united","violence","ana","jal"]
 title = "Won't Happen in Japan"
 
