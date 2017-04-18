@@ -2,8 +2,8 @@
 date = "2017-04-18T12:33:16+09:00"
 draft = "false"
 slug = "tmsidk-is-a-fake-news-antidote"
-tags = ["tmsidk","podcast","fake"]
-title = "TMSIDK is a Fake News Antidote"
+tags = ["tmsidk","podcast","fake","trypod","dubner"]
+title = "TMSIDK is a Fake News Antidote #TryPod"
 +++
 
 The new-ish podcast "Tell Me Something I Don't Know" (TMSIDK) from Stephen Dubner, strikes me as a kind of antidote to "fake news" so common these days.  
@@ -16,10 +16,10 @@ It's a new format. In their own words:
 
 I keep thinking it's an "antidote" in a sly way, because of the focus they bring to (admittedly _ad hoc_) fact checking, because a part of the game is to judge the "IDKs" participants present as fact, and because of how we get to observe the thought processes of some very smart people. 
 
-It's a real pleasure, and you might like it too. Check it out! 
+It's a real pleasure, and you might like it too. The show has some serious heavy hitters as panelists. Check it out! 
 
-
-
+:newspaper: :white_check_mark:
+  
 ## More Info
 
 * TMDISK main site: http://tmsidk.com 
