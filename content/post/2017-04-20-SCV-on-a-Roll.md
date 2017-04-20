@@ -1,10 +1,9 @@
 +++
-date = "2017-04-20T17:08:33+09:00"
+date = "2017-04-20T17:32:33+09:00"
 draft = "false"
 slug = "scv-on-a-roll"
 tags = ["scvanguard","gaines","scv","clowns","2017"]
 title = "SCV on a Roll"
-
 +++
 
 I was thrilled to see that my favorite corps Santa Clara Vanguard has picked up Michael Gaines as their "Creative Director". 
@@ -17,6 +16,6 @@ I'm not sure what that really is, but, even if Gaines is not writing their drill
 
 Those are some heavy hitters, who have variously produced some of the best drum corps shows _ever_. Looks like they are ahead of the curve this year in terms of planning, which is fantastic. 
 
-Maybe this year, "Send in the Clowns" won't be as appropriate! I am hoping for the best.  
+Maybe this year, "Send in the Clowns" won't be as appropriate! Best wishes for a big success on their 50th anniversary.  
 
 :congratulations: :trophy:
