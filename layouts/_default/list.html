@@ -4,7 +4,7 @@
        {{ range first 20 .Data.Pages }}
           {{ if eq .Type "post"}}
             <h2><a class="link dim dark-green" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            {{ .Render "summary"}}
+            {{- partial "summary.html" . -}}
           {{ end }}
       {{ end }}
   </main>
