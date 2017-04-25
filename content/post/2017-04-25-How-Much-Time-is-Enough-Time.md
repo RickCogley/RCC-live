@@ -9,7 +9,6 @@ title = "How Much Time is Enough Time"
 If you're assigning tasks, how much time should you give? 
 
 <!--more-->
-
 I manage projects for a living, whether it's the big meta project of my company [eSolia](https://esolia.com) or, the various projects I run for my clients. One rule that you could do worse than to burn into your brain, is "Parkinson's Law". It's the rule that states that work will _always expand into the time alloted._ The exact quote is: 
 
 > work expands so as to fill the time available for its completion 
