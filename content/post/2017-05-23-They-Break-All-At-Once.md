@@ -1,8 +1,8 @@
 +++
-date = "2017-05-23T06:58:48+09:00"
+date = "2017-05-23T08:00:48+09:00"
 draft = "false"
 slug = "they-break-all-at-once"
-tags = ["x","y"]
+tags = ["appliances","obsolescence"]
 title = "They Break All At Once"
 +++
 
