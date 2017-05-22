@@ -1,4 +1,4 @@
-baseURL = "//live.cogley.info"
+baseURL = "http://live.cogley.info"
 defaultContentLanguage = "en"
 languageCode = "en-us"
 title = "RC Live"
