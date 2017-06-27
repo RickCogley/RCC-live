@@ -1,7 +1,7 @@
 +++
 date = {{ .Date }}
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
-slug = "{{ .TranslationBaseName }}"
+slug = "{{ .TranslationBaseName | lower }}"
 tags = ["x", "y"]
 draft = "true"
 +++
