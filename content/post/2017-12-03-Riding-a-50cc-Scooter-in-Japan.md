@@ -101,7 +101,7 @@ Our daughter's friend made some operational mistake on her scooter, hit her head
 
 ### How is it riding in Japan?
 
-After about 800km driving on the Dunk, I have a few observations: 
+After about 900km driving on the Dunk, I have a few observations: 
 
 * Riding a scooter (and I assume any motorcycle) is a skill that requires practice. It's amazing how things like countersteering work, and I keep focusing on developing a specific skill each day.  
 * Cars have not been so aggressive as I thought they would be, generally giving me a wide berth.
