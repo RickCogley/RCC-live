@@ -29,12 +29,13 @@ Stay safe out there.
 
 :warning: :bee: :scream:  
 
-![Japanese Giant Hornet from I Kenpei on Wikimedia](https://upload.wikimedia.org/wikipedia/commons/1/19/Vespa_mandarinia_japonica1.jpg)
+{{< figure imgname="kenpei-vespa_mandarinia_japonica-1" width="600x" type="Photo" title="Wikipedia Photo of Asian Giant Hornet" >}}
+
 
 ### Related
 
 * Asian Giant Hornet entry on wikipedia - https://en.wikipedia.org/wiki/Asian_giant_hornet
 * Vespa sports supplement - http://www.vespapower.com/
 * VAAM sports supplement - https://www.meiji.co.jp/sports/vaam/en/supervaam/
-* Photo is by I, KENPEI, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2804961
+* Photo is by KENPEI, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2804961
 
