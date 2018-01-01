@@ -29,7 +29,7 @@ Stay safe out there.
 
 :warning: :bee: :scream:  
 
-{{< figure imgname="kenpei-vespa_mandarinia_japonica-1" width="600x" type="Photo" title="Wikipedia Photo of Asian Giant Hornet" >}}
+{{< figure imgname="kenpei-vespa_mandarinia_japonica-1.jpg" width="600x" type="Photo" title="Photo of Asian Giant Hornet by Kenpei on Wikimedia" >}}
 
 
 ### Related
