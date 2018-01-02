@@ -2,11 +2,11 @@
 date = 2018-01-01T14:06:04+09:00
 title = "Japan PSA: Fall Is Giant Hornet Season"
 slug = "japan-psa-fall-is-hornet-season"
-tags = ["oosuzumebachi", "psa", "hornet"]
+tags = ["oosuzumebachi", "psa", "hornet", "nature"]
 draft = "false"
 +++
 
-Robert on Strava says he "just takes the stings and calls it free Vespa", which is funny, but Asian Giant Hornets (_Vespa mandarinia_) in Japan are no joke. Read on for why: 
+Robert on Strava says he "just takes the stings and calls it free Vespa", which is funny, but Asian Giant Hornets (_Vespa mandarinia_) in Japan are no joke. Read on to find out why: 
 
 <!--more-->
 
