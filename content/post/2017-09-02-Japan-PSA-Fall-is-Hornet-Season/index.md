@@ -1,8 +1,8 @@
 +++
-date = 2017-09-02T14:06:04+09:00
+date = 2018-01-01T14:06:04+09:00
 title = "Japan PSA: Fall Is Giant Hornet Season"
 slug = "japan-psa-fall-is-hornet-season"
-tags = ["x", "y"]
+tags = ["oosuzumebachi", "psa", "hornet"]
 draft = "false"
 +++
 
@@ -30,7 +30,6 @@ Stay safe out there.
 :warning: :bee: :scream:  
 
 {{< figure imgname="kenpei-vespa_mandarinia_japonica-1.jpg" width="600x" type="Photo" title="Asian Giant Hornet by Kenpei on Wikimedia" >}}
-
 
 ### Related
 
