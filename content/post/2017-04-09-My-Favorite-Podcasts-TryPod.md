@@ -1,5 +1,5 @@
 +++
-date = "2017-04-09T13:33:19+09:00"
+date = "2018-03-13T20:20:19+09:00"
 draft = "false"
 slug = "my-favorite-podcasts-trypod"
 tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir","wbez","stitcher","panoply","defactosound"]
@@ -72,6 +72,7 @@ No less important, but here are a handful of other great ones:
 * From Stitcher: Stephen Dubner's [Tell Me Something I Don't Know](http://tmsidk.com/about/))
 * From Defacto Sound: [20000 Hertz](https://www.20k.org/)
 * From Panoply: Malcolm Gladwell's [Revisionist History](http://revisionisthistory.com/about)
+* Kevin Allison's [Risk!](http://risk-show.com) podcast. It's kind of an adult version of "Mortified". 
 
 And that's a wrap. If you've not got into podcasts, check out the ones above. You're sure to branch out and find other ones you love, among the great content that's being produced these days. Enjoy! 
 
@@ -80,4 +81,8 @@ And that's a wrap. If you've not got into podcasts, check out the ones above. Yo
 * http://www.npr.org/about-npr/516454568/top-podcast-hosts-ask-their-listeners-to-try-a-pod
 * https://www.forbes.com/sites/sarahrheawerner/2017/03/10/7-ways-to-make-the-most-of-trypod-this-march/#3fe9dc7263f2
 * https://twitter.com/hashtag/trypod?src=hash
+
+## Updates
+
+* 20180313 - added Risk!
 
