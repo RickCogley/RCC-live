@@ -17,6 +17,7 @@
               <a class="link dim dark-green f6 f5-l dib mr3 mr4-l" href="{{ "post"| relURL }}" title="Archive">Archive</a>
               <a class="link dim dark-green f6 f5-l dib mr3 mr4-l" href="{{ "tags"| relURL }}" title="Tags">Tags</a>
               <a class="link dim dark-green f6 f5-l dib" href="https://rick.cogley.info/about" title="About Rick Cogley" target="_blank">About Me</a>
+              <a href="{{ "search" | relURL }}" class="ml4"><svg xmlns="http://www.w3.org/2000/svg" class="geomicon blue" viewBox="0 0 32 32" width="32" height="32"><use xlink:href="#search"></use></svg></a>
             </div>
          </nav>
       </header>
@@ -37,6 +38,9 @@
           <svg id="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="currentcolor">
             <path d="M4 4 H8 V14 L28 4 V28 L8 18 V28 H4 z"></path>
           </svg>
+          <svg id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="currentcolor">
+  <path d="M12 0 A12 12 0 0 0 0 12 A12 12 0 0 0 12 24 A12 12 0 0 0 18.5 22.25 L28 32 L32 28 L22.25 18.5 A12 12 0 0 0 24 12 A12 12 0 0 0 12 0 M12 4 A8 8 0 0 1 12 20 A8 8 0 0 1 12 4"></path>
+          </svg>
         </defs>
       </svg>
 
@@ -46,6 +50,8 @@
 {{ block "footer" . }}
   {{- partial "footer.html" . -}}
   {{- partial "bodyend.html" . -}}
+{{ end }}
+{{ block "footerscripts" . }}
 {{ end }}
 </body>
 </html>
