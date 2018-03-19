@@ -18,7 +18,7 @@
 {{- $image := .Scratch.Get "image" -}}
 <figure class="tc grow">
   <a href="{{ $original.RelPermalink }}" title="{{ $title }}">
-    <img class="ba br3 pa2 b--black-30 dib" src="{{ $image.RelPermalink }}" alt="{{ $type  }} - {{ $title }}" >
+    <img class="ba br2 pa1 b--black-30 dib" src="{{ $image.RelPermalink }}" alt="{{ $type  }} - {{ $title }}" >
   </a>
   <figcaption class="f6"><strong>{{ $type }}</strong>: {{ $title }}</figcaption>
 </figure>
