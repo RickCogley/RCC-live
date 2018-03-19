@@ -1,16 +1,25 @@
-<!-- curlycurlyless figure imgname="name-of-image-no-extension" width="500x" type="photo" title="blah blah"  greatercurlycurly -->
+<!-- curlycurlyless figure "img-name-with-extension.ext" Resize "300x" Photo "The Title of The Photo" greatercurlycurly -->
+{{ "<!-- ENTERING shortcode figure.html -->" | safeHTML }}
+{{ $images := .Page.Resources.ByType "image" }}
+{{- $original := $images.GetMatch (.Get 0) -}}
+{{- $command := .Get 1 -}}
+{{- $options := .Get 2 -}}
+{{- $type := .Get 3 -}}
+{{- $title := .Get 4 -}}
+{{- if eq $command "Fit" -}}
+{{- .Scratch.Set "image" ($original.Fit $options) -}}
+{{- else if eq $command "Resize" -}}
+{{- .Scratch.Set "image" ($original.Resize $options) -}}
+{{- else if eq $command "Fill" -}}
+{{- .Scratch.Set "image" ($original.Fill $options) -}}
+{{- else -}}
+{{- errorf "Invalid image processing command: Must be one of Fit, Fill or Resize." -}}
+{{- end -}}
+{{- $image := .Scratch.Get "image" -}}
 <figure class="tc grow">
-{{ $imgname := .Get "imgname" }}
-{{ $imgwidth := .Get "width" }}
-{{ $img := $.Page.Resources.GetByPrefix $imgname }}
-{{ $scaled := $img.Resize $imgwidth }}
-  <a href="{{ $img.Permalink }}" title="{{ .Get "title" }}">
-  <img class="ba br3 b--black-30" src="{{ $scaled.Permalink }}" alt="{{ .Get "type"  }} - {{ .Get "title" }}" >
+  <a href="{{ $original.RelPermalink }}" title="{{ $title }}">
+    <img class="ba br3 pa2 b--black-30 dib" src="{{ $image.RelPermalink }}" alt="{{ $type  }} - {{ $title }}" >
   </a>
-  <figcaption class="f6"><em>{{ .Get "type" }}</em>: {{ .Get "title" }}</figcaption>
+  <figcaption class="f6"><strong>{{ $type }}</strong>: {{ $title }}</figcaption>
 </figure>
-
-<!-- end figure  -->
-
-
-
+{{ "<!-- LEAVING shortcode figure.html -->" | safeHTML }}

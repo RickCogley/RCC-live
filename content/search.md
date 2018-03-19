@@ -18,7 +18,6 @@ Setting a very low sitemap priority will tell search engines this is not importa
 
 This implementation uses Fusejs, jquery and mark.js
 
-
 ## Initial setup
 
 Search  depends on additional output content type of JSON in config.toml
