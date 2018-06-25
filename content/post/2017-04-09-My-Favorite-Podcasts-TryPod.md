@@ -1,8 +1,8 @@
 +++
-date = "2018-03-13T20:20:19+09:00"
+date = "2018-06-25T14:58:39+09:00"
 draft = "false"
 slug = "my-favorite-podcasts-trypod"
-tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir","wbez","stitcher","panoply","defactosound"]
+tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir","wbez","stitcher","panoply","defactosound","mozilla"]
 title = "My Favorite Podcasts #TryPod"
 +++
 
@@ -20,6 +20,10 @@ You can subscribe to these podcasts from Apple iTunes, apps like Overcast or Cas
 
 In no particular order: 
 
+### From Moz://a
+
+Mozilla does important work "to ensure the Internet is a global public resource, open and accessible to all." The [Mozilla Manifesto](https://www.mozilla.org/en-US/about/manifesto/) is worth studying, and it's great that there is an organization fighting for us, the "Joe and Jane Users" of the Internet. I like the [Mozilla IRL](https://irlpodcast.org/about/) podcast, which makes the point that our online lives _are_ real life. 
+
 ### From NPR
 
 Here's NPR's [directory](http://www.npr.org/podcasts/organizations/1), and among those, I love: 
@@ -34,9 +38,12 @@ Here's NPR's [directory](http://www.npr.org/podcasts/organizations/1), and among
 PRX sponsors a curated group of podcasts called "[RadioTopia](https://www.radiotopia.fm)", which keeps me deep into listening material such as gems like: 
 
 * 99% Invisible
+* ZigZag
+* What Trump can teach us about Con Law
 * The Memory Palace 
 * The Allusionist
 * Criminal 
+* This is Love
 * Song Exploder 
 * Mortified 
 
@@ -51,6 +58,7 @@ PRX and the Center of Investigative Reporting co-sponsor a great one:
 WNYC produces many beloved podcasts. Read more at their [site](http://wnycstudios.wnyc.org/#our-shows), but here's my heavy rotation: 
 
 * RadioLab
+* More Perfect
 * Freakonomics Radio
 * More Perfect
 * Here's the Thing
@@ -85,4 +93,6 @@ And that's a wrap. If you've not got into podcasts, check out the ones above. Yo
 ## Updates
 
 * 20180313 - added Risk!
+* 20180625 - added a new one Radiotopia's "[ZigZag](https://www.radiotopia.fm/podcasts/zigzag)", a podcast about "changing the course of capitalism, journalism, and women’s lives"; Radiotopia's "[This is Love](https://thisiscriminal.com/about)" an "investigation into life's most persistent mystery"; WNYC's "[More Perfect](https://www.wnycstudios.org/shows/radiolabmoreperfect)" about the US Supreme Court; "[What Trump can teach us about Con Law](https://trumpconlaw.com/)" about US Constitutional Law; and and Mozilla's [IRL](https://irlpodcast.org/about/), about why our lives on the internet _are_ "in real life". 
+
 
