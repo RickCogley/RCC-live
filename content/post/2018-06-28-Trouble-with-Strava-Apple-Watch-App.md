@@ -58,6 +58,10 @@ Sometimes, quality software's a labor of love, rather than the product of a big 
 
 _Kudos Stephane Lizeray_.
 
+## Updates
+
+* 20180630 - it still works on day 2. If I don't walk as fast as I did when calibrating, the "heat map" is more orange than green. This is expected. 
+
 :watch: :bug: :running: :heart: :pray:
 
 
