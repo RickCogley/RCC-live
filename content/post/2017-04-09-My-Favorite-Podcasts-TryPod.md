@@ -1,5 +1,5 @@
 +++
-date = "2018-06-25T14:58:39+09:00"
+date = "2018-08-23T07:00:30+09:00"
 draft = "false"
 slug = "my-favorite-podcasts-trypod"
 tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir","wbez","stitcher","panoply","defactosound","mozilla"]
@@ -77,9 +77,10 @@ How could I forget Ira Glass team's stories "in three acts". I love these Podcas
 
 No less important, but here are a handful of other great ones: 
 
-* From Stitcher: Stephen Dubner's [Tell Me Something I Don't Know](http://tmsidk.com/about/))
-* From Defacto Sound: [20000 Hertz](https://www.20k.org/)
-* From Panoply: Malcolm Gladwell's [Revisionist History](http://revisionisthistory.com/about)
+* From Glenn Ostlund: [MytholoGuy](https://itunes.apple.com/jp/podcast/mythologuy/id1427041103?l=en&mt=2) is a fantastic new family-friendly podcast that showcases stories from around the world. I wish I had had it when my kids were growing up. 
+* From Stitcher: Stephen Dubner's [Tell Me Something I Don't Know](http://tmsidk.com/about/)). Fake news antidote. 
+* From Defacto Sound: [20000 Hertz](https://www.20k.org/). Want to know all about "that sound"? 2K Hertz has you covered. 
+* From Panoply: Malcolm Gladwell's [Revisionist History](http://revisionisthistory.com/about). Revise away; it's so entertaining. 
 * Kevin Allison's [Risk!](http://risk-show.com) podcast. It's kind of an adult version of "Mortified". 
 
 And that's a wrap. If you've not got into podcasts, check out the ones above. You're sure to branch out and find other ones you love, among the great content that's being produced these days. Enjoy! 
@@ -92,6 +93,7 @@ And that's a wrap. If you've not got into podcasts, check out the ones above. Yo
 
 ## Updates
 
+* 20180823 - added Glenn Ostlund's MytholoGuy
 * 20180313 - added Risk!
 * 20180625 - added a new one Radiotopia's "[ZigZag](https://www.radiotopia.fm/podcasts/zigzag)", a podcast about "changing the course of capitalism, journalism, and women’s lives"; Radiotopia's "[This is Love](https://thisiscriminal.com/about)" an "investigation into life's most persistent mystery"; WNYC's "[More Perfect](https://www.wnycstudios.org/shows/radiolabmoreperfect)" about the US Supreme Court; "[What Trump can teach us about Con Law](https://trumpconlaw.com/)" about US Constitutional Law; and and Mozilla's [IRL](https://irlpodcast.org/about/), about why our lives on the internet _are_ "in real life". 
 
