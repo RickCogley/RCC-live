@@ -4,6 +4,13 @@ draft = "false"
 slug = "my-favorite-podcasts-trypod"
 tags = ["podcast","trypod","radio","npr","prx","radiotopia","wnyc","cir","wbez","stitcher","panoply","defactosound","mozilla"]
 title = "My Favorite Podcasts #TryPod"
+aliases = [
+    "/2018/06/25/my-favorite-podcasts-trypod/",
+    "/2018/03/13/my-favorite-podcasts-trypod/",
+    "/2017/04/11/my-favorite-podcasts-trypod/",
+    "/2017/04/10/my-favorite-podcasts-trypod/",
+    "/2017/04/09/my-favorite-podcasts-trypod/"
+]
 +++
 
 I'm late to the party, but the Podcasts I listen to have been asking listeners to share their favorites on Social Media, so here goes.  
@@ -94,7 +101,7 @@ And that's a wrap. If you've not got into podcasts, check out the ones above. Yo
 ## Updates
 
 * 20180823 - added Glenn Ostlund's MytholoGuy
-* 20180313 - added Risk!
 * 20180625 - added a new one Radiotopia's "[ZigZag](https://www.radiotopia.fm/podcasts/zigzag)", a podcast about "changing the course of capitalism, journalism, and women’s lives"; Radiotopia's "[This is Love](https://thisiscriminal.com/about)" an "investigation into life's most persistent mystery"; WNYC's "[More Perfect](https://www.wnycstudios.org/shows/radiolabmoreperfect)" about the US Supreme Court; "[What Trump can teach us about Con Law](https://trumpconlaw.com/)" about US Constitutional Law; and and Mozilla's [IRL](https://irlpodcast.org/about/), about why our lives on the internet _are_ "in real life". 
+* 20180313 - added Risk!
 
 
