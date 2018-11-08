@@ -2,7 +2,7 @@
   {{- partial "header.html" . -}}
 {{ end }}
 {{ define "main" }}
-<main class="w-70 center">
+<main class="w-50 center">
   <h1 class="moon-gray">Content with tag: &laquo;{{ .Title }}&raquo;</h1>
   {{ range .Data.Pages.GroupByDate "2006" }}
   <h2 class="dark-blue">{{ .Key }}</h2>
