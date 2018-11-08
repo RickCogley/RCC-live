@@ -27,7 +27,7 @@ jobs:
       - run:
           name: Install s3deploy from bep
           command: |
-            curl -L https://github.com/bep/s3deploy/releases/download/v2.2.0/s3deploy_2.0.2_Linux-64bit.tar.gz | tar xvz
+            curl -L https://github.com/bep/s3deploy/releases/download/v2.2.0/s3deploy_2.2.0_Linux-64bit.tar.gz | tar xvz
 
       - run:
           name: Run commands to see results on std-out in the circleci web gui log
