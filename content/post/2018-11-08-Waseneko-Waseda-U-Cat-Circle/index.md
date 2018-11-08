@@ -25,7 +25,7 @@ Waseneko circle was founded in 1999, almost 20 years ago, and its ~70 members ha
 
 > _An environment and society where people and cats can live together_
 
-So Waseneko members collect donations and perform "TNR" (trap, neuter, release), then take care of the area cats, and their living spaces. The hope is, that TNR will help reduce the noise from cats in heat, and sanitation problems that can become a problem. 
+So Waseneko members collect donations and perform "TNR" (trap, neuter, release), then take care of the area cats, and their living spaces. The hope is, that TNR will help reduce the noise from cats in heat, and sanitation problems. 
 
 At the festival, they were selling postcards and other things, so we bought a few (proceeds go to food, the sign said), shown in the picture below. I don't _think_ the cat is indeed on fire, but it's a kind of funny aura, if you think of how cats generally are. 
 
