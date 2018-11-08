@@ -9,7 +9,6 @@ jobs:
       HUGO_BUILD_DIR2: ~/hugo/ctrl-c
       HUGO_BUILD_DIR3: ~/hugo/tilde
     steps:
-
       # install git and jq for json manipulation
       - run: apk update && apk add git && apk add jq && apk add rsync
 
@@ -28,12 +27,13 @@ jobs:
       - run:
           name: Install s3deploy from bep
           command: |
-            curl -L https://github.com/bep/s3deploy/releases/download/v2.0.2/s3deploy_2.0.2_Linux-64bit.tar.gz | tar xvz
+            curl -L https://github.com/bep/s3deploy/releases/download/v2.2.0/s3deploy_2.0.2_Linux-64bit.tar.gz | tar xvz
 
-      # - run:
-      #     name: list stuff
-      #     command: |
-      #        pwd
+      - run:
+          name: Run commands to see results on std-out in the circleci web gui log
+          command: |
+             pwd
+             hugo env
       #        ls -la $HOME
       #        ls -la $HOME/hugo
       #        echo $HOME
@@ -69,12 +69,14 @@ jobs:
 
       # `deploy` step: identical to a `run` step, but uses only one container:
       # https://circleci.com/docs/2.0/configuration-reference/#deploy
+      # Old AWS invalidation commands:
+       # aws cloudfront create-invalidation --distribution-id $AWS_CF_LIVE_DISTN --paths "/index.html" "/" "/page/*" "/post/*" "/sitemap/*" "/404/*" "/tags/*" "/topics/*"
       - deploy:
           name: Deploy to AWS S3
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
               ./s3deploy -source=$HUGO_BUILD_DIR -region=us-east-1 -bucket=$AWS_S3_LIVE_BKTNAME
-              aws cloudfront create-invalidation --distribution-id $AWS_CF_LIVE_DISTN --paths "/index.html" "/" "/page/*" "/post/*" "/sitemap/*" "/404/*" "/tags/*" "/topics/*"
+              -distribution-id=$AWS_CF_LIVE_DISTN
               curl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38" "https://pingomatic.com/ping/?title=Rick+Cogley+Live&blogurl=http%3A%2F%2Flive.cogley.info&rssurl=http%3A%2F%2Flive.cogley.info%2Findex.xml&chk_weblogscom=on&chk_blogs=on&chk_feedburner=on&chk_newsgator=on&chk_myyahoo=on&chk_pubsubcom=on&chk_blogdigger=on&chk_weblogalot=on&chk_newsisfree=on&chk_topicexchange=on&chk_google=on&chk_tailrank=on&chk_skygrid=on&chk_collecta=on&chk_superfeedr=on"
               curl "http://www.google.com/webmasters/tools/ping?sitemap=http%3A%2F%2Flive.cogley.info%2Fsitemap.xml"
               curl "http://www.bing.com/webmaster/ping.aspx?siteMap=http%3A%2F%2Flive.cogley.info%2Fsitemap.xml"
