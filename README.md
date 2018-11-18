@@ -1,2 +1,2 @@
 # RCC-live
-Rick Cogley link blog, using Hugo SSG.
+Rick Cogley short post blog, using the excellent Hugo SSG.
