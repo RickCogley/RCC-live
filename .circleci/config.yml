@@ -10,7 +10,7 @@ jobs:
       HUGO_BUILD_DIR3: ~/hugo/tilde
     steps:
       # install git and jq for json manipulation
-      - run: apk update && apk add git && apk add jq && apk add rsync
+      - run: apt-get update && apt-get install -y git && apt-get install -y jq && apt-get install -y rsync
 
       # checkout the repository of this project
       - checkout
@@ -18,16 +18,16 @@ jobs:
       # install git submodules for managing third-party dependencies
       - run: git submodule sync && git submodule update --init
 
-      - run:
-          name: Install AWS CLI (first install pip, the Python package manager)
-          command: |
-            apk add --update python python-dev py-pip build-base
-            pip install awscli
+      # - run:
+      #     name: Install AWS CLI (first install pip, the Python package manager)
+      #     command: |
+      #       apk add --update python python-dev py-pip build-base
+      #       pip install awscli
 
       - run:
           name: Install s3deploy from bep
           command: |
-            curl -L https://github.com/bep/s3deploy/releases/download/v2.2.0/s3deploy_2.2.0_Linux-64bit.tar.gz | tar xvz
+            curl -L https://github.com/bep/s3deploy/releases/download/v2.3.2/s3deploy_2.3.2_Linux-64bit.tar.gz | tar xvz
 
       - run:
           name: Run commands to see results on std-out in the circleci web gui log
