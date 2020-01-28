@@ -10,7 +10,9 @@ jobs:
       HUGO_BUILD_DIR3: ~/hugo/tilde
     steps:
       # install git and jq for json manipulation
-      - run: apt-get update && apt-get install -y git && apt-get install -y jq && apt-get install -y rsync
+      # jq and git now included
+      # if apt-get needed run it with sudo
+      # - run: apt-get update && apt-get install -y git && apt-get install -y jq && apt-get install -y rsync
 
       # checkout the repository of this project
       - checkout
