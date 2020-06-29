@@ -10,4 +10,5 @@
         </small>
         <!-- {{ if .IsPage }}<small class="gray"><em>Updated: {{ .Page.Lastmod }}, Version: {{ .GitInfo.AbbreviatedHash }}</em></small>{{ end }} -->
         {{ if and (ne .Kind "taxonomy") (ne .Kind "taxonomyTerm") (ne .Kind "404") }}<small class="gray c2sc"><em>Updated: {{ .Lastmod }} {{ .GitInfo.AbbreviatedHash }}</em></small>{{ end }}
+        <small class="gray c2sc"><em>Updated: {{ .Lastmod }} {{ .GitInfo.AbbreviatedHash }}</em></small>
 </footer>
