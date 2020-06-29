@@ -1,10 +1,12 @@
 +++
-date = 2018-11-08T15:35:45+09:00
+date = 2020-06-30T08:01:04+09:00
 title = "Waseneko Waseda U Cat Circle"
 slug = "waseneko-waseda-u-cat-circle"
 tags = ["wasesai", "waseda", "waseneko", "neko", "cat", "TNR"]
 draft = "false"
 +++
+
+A blast from the past. We have been living in our new house for a month, and the three cats the neighbor who died had been feeding, are now visiting us in expectation. It made me think of this post. 
 
 At the Waseda University "Wasesai" festival on 4th Nov 2018, Akiko and I visited some club displays in the classrooms, to kill some time before our daughter's concerts. One interesting one was the "Waseneko" circle. Here's why it was cool: 
 
